@@ -1,0 +1,11 @@
+[project]
+name = "seukod-banner-studio"
+version = "0.1.0"
+description = "Editor reactivo de banners de GitHub con marimo"
+requires-python = ">=3.12"
+dependencies = [
+    "marimo>=0.25.1,<1",
+    "pillow>=11",
+    "anywidget>=0.9",
+    "traitlets>=5",
+]
